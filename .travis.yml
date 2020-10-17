@@ -1,6 +1,8 @@
 language: node_js
 
-node_js: "4"
+node_js:
+  - "node"
+  - "lts/*"
 
 before_script:
   - export DISPLAY=:99.0
@@ -9,7 +11,7 @@ before_script:
 
 script:
   - npm test
-  - npm run pack-linux
+  - npm run package:linux
 
 branches:
   only:

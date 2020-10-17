@@ -6,13 +6,13 @@
 
 This project adheres to the Contributor Covenant [code of conduct](CODE_OF_CONDUCT.md).
 By participating, you are expected to uphold this code. Please report unacceptable
-behavior to [electron@github.com](mailto:electron@github.com).
+behavior to [coc@electronjs.org](mailto:coc@electronjs.org).
 
 **See the [documentation](docs.md) for information on how this project works.**
 
 ## Code Style & ES6
 
-This project uses the [JavaScript Standard](http://standardjs.com) style and limited E6 syntax.
+This project uses the [JavaScript Standard](http://standardjs.com) style and limited ES6 syntax.
 
 Because this project is intended for beginners we stick to mostly vanilla JavaScript. One of the features we want illustrate about Electron, however, is that you can use most of ES6 out of the box. To that end, in this project we use these parts of ES6:
 
